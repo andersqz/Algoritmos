@@ -1,1 +1,5 @@
 # AlgoritmosB
+
+#include <stdio.h>
+
+
