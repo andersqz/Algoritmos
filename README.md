@@ -1,5 +1,5 @@
 # AlgoritmosB
 
-#include <stdio.h>
+Repositorio p cadeira de algoritmosB
 
 
