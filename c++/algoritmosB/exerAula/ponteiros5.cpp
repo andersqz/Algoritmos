@@ -10,7 +10,7 @@
 #define TAM 5
 using namespace std;
 
-void prencherVetor(string vet[], int tamanho)
+void preencherVetor(string vet[], int tamanho)
 {
     cout << "=== Preenchendo o vetor ===" << endl;
     for (int i = 0; i < tamanho; i++) {
