@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#define TAM 10
+using namespace std;
+
+string toMaiusculo(string frase) {
+    for (int i = 0; i < frase.size(); i++) {
+        frase[i] = toupper(frase[i]); // transforma cada caractere
+    }
+    return frase; // retorna a frase modificada
+}
+
+int main() {
+    string nomes;
+    string vetorDeNomes[TAM];
+    string nomeModificado;
+
+    for (int i = 0; i < TAM; i++) {
+        cout << "Nome: ";
+        getline(cin, nomes);
+        nomeModificado = toMaiusculo(nomes);
+        vetorDeNomes[i] = nomeModificado;
+    }
+
+    for (int i = 0; i < TAM; i++) {
+        cout << vetorDeNomes[i] << endl;
+    }
+    return 0;
+}
