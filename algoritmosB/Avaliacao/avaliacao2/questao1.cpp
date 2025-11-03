@@ -1,3 +1,9 @@
+/*Questão 1) Construir um programa em que o usuário insira/digite 10 nomes completos de pessoas 
+(validar se o nome lido tem duas palavras no mínimo). 
+Esses nomes devem ser transformados para maiúsculo e armazenados em um vetor de tamanho 10 (ou TAM 10). 
+Ao final, esses nomes devem ser exibidos. 
+Contudo, o programa deve ser composto por métodos (com ou sem retorno).*/
+
 #include <iostream>
 #include <string>
 #define TAM 10

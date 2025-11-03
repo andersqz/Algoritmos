@@ -1,3 +1,9 @@
+/*Questão 3) Dado um arquivo texto chamado de nomes.txt, 
+criar um programa que leia o arquivo e armazene esses nomes numa lista de nomes do tipo string. 
+Ao final, exibir a lista populada com a quantidade de nomes lidos do arquivo. 
+Exemplo de arquivo nomes.txt Anderson Dick Guilherme Londero João Messias 
+Alexandre Zamberlan Anderson Dick Guilherme Londero*/
+
 #include <iostream>
 #include <fstream>
 #include <string>
